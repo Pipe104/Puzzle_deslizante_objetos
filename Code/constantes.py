@@ -1,6 +1,6 @@
 import pygame
 
-
+#Matrices 3x3
 matriz= [
     [None, None, None],
     [None, None, None],
@@ -14,8 +14,9 @@ matriz_comprobante= [
 ]
 
 
-size = 1020, 714
-size_c = 135, 138
+size = 1020, 714 #Tamaño de la pantalla
+size_c = 135, 138 #Tamaño de cada cuadrito
+#Cargando imagenes
 fondo = pygame.image.load("../numeros/fondo.png")
 imagen1 = pygame.image.load ("../numeros/1.png")
 imagen2 = pygame.image.load ("../numeros/2.png")

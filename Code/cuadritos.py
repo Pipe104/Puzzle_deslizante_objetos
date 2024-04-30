@@ -12,7 +12,7 @@ class Cuadrado:
     def movimiento():
         pass
 
-
+#Instanciando la clase cuadro para las imagenes
 image1 = Cuadrado()
 image1.hacer_imagen(imagen1)
 
@@ -44,9 +44,10 @@ naranja.hacer_imagen(i_orange)
 class Matriz ():
 
     def __init__ (self):
-        self.size_c = size_c
+        self.size_c = size_c #tamaño de cada cuadro 
 
     def llenar_matriz(self):
+        #Llenar la matriz que va a cambiar
         matriz[0][0] = image1
         matriz[0][1] = image2
         matriz[0][2] = image3
@@ -57,6 +58,7 @@ class Matriz ():
         matriz[2][1] = image8
         matriz[2][2] = naranja
 
+        #Llenar la matriz para comprobar si gano
         matriz_comprobante[0][0] = image1
         matriz_comprobante[0][1] = image2
         matriz_comprobante[0][2] = image3
@@ -68,26 +70,26 @@ class Matriz ():
         matriz_comprobante[2][2] = naranja
 
     def dibujar_matriz(self):
-
+        #Calcula donde se va a mostrar la matriz (se muestra en el medio)
         start_x = (size[0] - (len(matriz[0]) * self.size_c[0])) // 2
         start_y = (size[1] - (len(matriz) * self.size_c[1])) // 2
 
+        #Mostrando matriz en pantalla
         for i in range(len(matriz)):
             for j in range(len(matriz[i])):
-                if matriz[i][j]:
-                    screen.blit(matriz[i][j].image, (start_x + j * self.size_c[0], start_y + i * self.size_c[1]))
+                screen.blit(matriz[i][j].image, (start_x + j * self.size_c[0], start_y + i * self.size_c[1]))
 
 class Cuadro(Cuadrado):
     
     def __init__ (self):
-
+        #Banderas para que solo detecte un click cuando se toca la tecla
         self.t_p_r = False
         self.t_p_l = False
         self.t_p_u = False
         self.t_p_d = False
 
     def movimiento(self):
-        
+        #Metodo para captar las teclas pulsadas y hacer el movimiento 
         key = pygame.key.get_pressed()
 
         if key[pygame.K_RIGHT] and not self.t_p_r:  # Verifica si la tecla está presionada y la bandera es False
