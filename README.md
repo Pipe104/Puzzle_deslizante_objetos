@@ -12,6 +12,10 @@ Cuando ganes te aparecerá un mensaje de felicitaciones y podrás volver a jugar
 
 **Diagrama de casos de uso:**
 ![](out/casos_de_uso_puzzle/caso_de_uso_puzzle.png)
+
+
+
+
 **Desarrollado por:** David Felipe Gil Laverde  
 **Lenguaje de programación:** Python  
 **Universidad Distrital Francisco José de Caldas**
