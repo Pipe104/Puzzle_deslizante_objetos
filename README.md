@@ -11,7 +11,11 @@
 Cuando ganes te aparecerá un mensaje de felicitaciones y podrás volver a jugar abriendo y cerrando el juego de nuevo.
 
 **Diagrama de casos de uso:**
+
+
 ![](out/casos_de_uso_puzzle/caso_de_uso_puzzle.png)
+
+
 
 
 
