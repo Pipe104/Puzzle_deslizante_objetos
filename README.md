@@ -8,7 +8,7 @@
 - ←: Mover la ficha de la izquierda hacia el cuadro naranja sin número.
 - →: Mover la ficha de la derecha hacia el cuadro naranja sin número.
 
-Cuando ganes te aparecerá un mensaje de felicitaciones y podrás volver a jugar abriendo y cerrando el juego de nuevo.
+Cuando ganes te aparecerá un mensaje de felicitaciones y podrás volver a jugar cerrando y ejecutando el juego de nuevo.
 
 **Diagrama de casos de uso:**
 
