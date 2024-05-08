@@ -1,0 +1,20 @@
+@startuml secuencia_puzzle
+
+actor "Main User" as User
+
+participant "Juego" as Juego
+participant "Matriz" as Matriz
+participant "Cuadro" as Cuadro
+
+User -> Juego: main()
+
+activate Juego
+Juego -> Matriz: llenar_matriz()
+Juego -> Matriz: Desordenar matriz
+Juego -> Matriz: dibujar_matriz()
+User -> Cuadro: Presionar tecla
+Cuadro -> Cuadro: movimiento()
+Cuadro --> Juego: Comprobar movimiento
+Juego --> User: Actualizar pantalla
+
+@enduml

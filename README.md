@@ -16,9 +16,16 @@ Cuando ganes te aparecerá un mensaje de felicitaciones y podrás volver a jugar
 ![](out/casos_de_uso_puzzle/caso_de_uso_puzzle.png)
 
 
+**Diagrama de clases**
 
 
+![](out/diagrama_clases_puzzle/clases_puzzle.png)
 
+
+**Diagrama de secuencia**
+
+
+![](out/diagrama_secuencia_puzzle/secuencia_puzzle.png)
 
 **Desarrollado por:** David Felipe Gil Laverde  
 **Lenguaje de programación:** Python  

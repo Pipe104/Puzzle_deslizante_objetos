@@ -1,8 +1,3 @@
-' RECORDAR: En UML en los cass de uso, se colocan los verbos en infinitivo
-' como lo es: "Jugar , Mover , Verifivar , etc"
-
-' << -- >> se usa para poner estereotipos a los actores
-
 @startuml caso_de_uso_puzzle
 
 :Main user: as User <<Jugador>>

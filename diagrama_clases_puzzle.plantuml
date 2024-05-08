@@ -1,0 +1,23 @@
+@startuml clases_puzzle
+
+interface Cuadrado 
+Cuadrado : hacer_imagen()
+Cuadrado : -movimiento()
+
+
+
+class Cuadro 
+Cuadro : movimiento()
+Cuadrado <|.. Cuadro
+
+class Matriz
+Matriz : llenar_matriz()
+Matriz : dibujar_matriz()
+Matriz *-- Cuadro 
+
+class Juego
+Juego : main()
+Juego *-- Matriz
+Juego *-- Cuadro
+
+@enduml
